@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            margin: 25px auto;
+            max-width: 1000px;
+            border: 2px solid #ddd;
+            border-radius: 15px;
+        }
+
+        .product {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .product img {
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+            border: 3px solid #2563eb;
+            border-radius: 15px;
+        }
+
+        .description {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .description h2 {
+            color: #172554;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .features {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            border: 2px solid #2563eb;
+            border-radius: 12px;
+            background-color: #eff6ff;
+        }
+
+        .testimonial {
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 5px solid #16a34a;
+            border-radius: 8px;
+            background-color: #f0fdf4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            background-color: #172554;
+            color: white;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            section {
+                padding: 18px;
+            }
+
+            .product {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .product img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Smart Watch Pro</h1>
+        <p>Smart Technology for a Better Lifestyle</p>
+    </header>
+
+    <!-- Product Overview -->
+    <section>
+        <div class="product">
+            <img src="https://tiimg.tistatic.com/fp/1/007/695/black-color-unisex-multi-functional-full-touch-screen-square-digital-smart-watch-259.jpg"
+                 alt="Smart Watch">
+
+            <div class="description">
+                <h2>Product Overview</h2>
+                <p>
+                    Discover the Smart Watch Pro, designed to make your
+                    daily life easier. Track your  Call Pro Bluetooth Calling Smart Watch, 1.69″ HD Display,Dual Chip,AI Voice Assistant, 120+ Sports Modes, SpO2 & Heart Rate Monitor, Fitness Tracker Smartwatch for Men & Women - Black,Pink.
+                </p>
+
+                <h3>Price: ₹2,999</h3>
+
+                <a href="#features" class="btn">Explore Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Our Product Features</h2>
+
+        <div class="features">
+
+            <div class="feature">
+                <h3>❤️ Health Tracking</h3>
+                <p>Monitor your daily activity and fitness.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🔋 Long Battery</h3>
+                <p>Enjoy long-lasting battery performance.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📱 Smart Connectivity</h3>
+                <p>Stay connected with notifications.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section>
+        <h2>Customer Reviews</h2>
+
+        <div class="testimonial">
+            <p>"Amazing product with a beautiful design!"</p>
+            <strong>- Rahul</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>"Easy to use and excellent battery life."</p>
+            <strong>- Priya</strong>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Smart Watch Pro. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
